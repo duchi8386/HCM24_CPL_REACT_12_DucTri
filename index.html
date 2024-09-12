@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Google Translate</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>Google translate</h1>
+        <!-- Icon menu -->
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <span class="logo-google">
+          <img
+            src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/logo_Google_FullColor_3x_830x271px.original.png"
+          />
+        </span>
+        <div class="title">
+          <h1>Translate</h1>
+        </div>
+      </div>
+      <div class="translator-container">
+        <div class="translate-box">
+          <div class="language-options">
+            <div class="language-option" id="lang-en">English</div>
+            <div class="language-option" id="lang-vi">Tiếng Việt</div>
+          </div>
+          <textarea id="input-text" placeholder="Nhập văn bản..."></textarea>
+        </div>
+        <div class="translate-box">
+          <div class="language-options">
+            <div class="language-option" id="lang-en">English</div>
+            <div class="language-option" id="lang-vi">Tiếng Việt</div>
+          </div>
+          <textarea id="input-text" placeholder="Nhập văn bản..."></textarea>
+        </div>
       </div>
     </div>
   </body>
