@@ -1,0 +1,12 @@
+Sử dụng html, css, javascript để clone lại trang Google Translate với các yêu cầu như sau:
+1: Sử dụng html, css, js thuần không sử dụng bất kỳ thư viện nào hỗ trợ layout, template, api...
+2: Cấu trúc thư mục gồm: index.html, style.css, script.js, assets (nếu có)
+3: Tính năng chính: 
++ layout giống page gốc
++ responsive trên ipad và mobile
++ có thể dịch được 1 số từ cơ bản (học, ăn, ngủ)
++ sử dụng 2 loại ngôn ngữ chính là english và tiếng việt 
++ có thể chuyển đổi qua lại giữa 2 ngôn ngữ để dịch
+4: Nộp file zip với folder chứa các file theo cấu trúc 2 và đặt tên theo danh sách lớp của admin.
+5: Lưu ý các bạn tự làm bài tập không copy bài của nhau, nếu phát hiện sẽ đánh giá bài không đạt.
+Link: https://translate.google.com
